@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 
-# This script will sort files based on their file extension.
+# This script will sort files based on their file extension 
+# cd to the directory photorec recovered files to, then run "filesorter"
 
-# Import functions
+# Import modules
 import os 
 import sys
 
-# Main 
+# Main
 def main(): 
 
 	# Variables
@@ -26,7 +27,7 @@ def main():
 	# Verify working directory and make sure you want to run the program
 	print('\n')
 	print('<-- File Sorter -->')
-	print('Is ', cwd, 'the directory you would like to sort?\nNOTE: Sorting the wrong directory will cause problems.')
+	print('Is ', cwd, 'the directory you would like to sort?\nNOTE: Sorting the wrong directory will cause **serious** problems!')
 	answer = str(input('Y/N? : '))
 
 	# Validate answer
